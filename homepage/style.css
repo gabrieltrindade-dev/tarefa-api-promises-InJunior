@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+  height: 139px;
+  background-color: #3e5dd4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.titulo {
+  font-size: 32px;
+  color: black;
+  margin: 0;
+}
+
+.admin {
+  background-color: #2ca44f;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 16px;
+}
+
+.admin img {
+  height: 16px;
+}
+
+.admin p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
+
+/*Footer*/
+
+footer {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.footerEndereçoContato {
+  background-color: rgba(252, 247, 248, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  height: 176px;
+  box-sizing: border-box;
+}
+
+.footerEndereçoContato h4 {
+  color: rgba(78, 128, 152, 1);
+  margin-bottom: 10px;
+}
+
+.footerEndereçoContato p {
+  color: rgba(39, 69, 83, 1);
+}
+
+.endereco {
+  max-width: 40%;
+}
+
+.contato {
+  max-width: 40%;
+}
+
+.icones img {
+  width: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.footerCopyright {
+  background-color: rgba(65, 95, 206, 1);
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
