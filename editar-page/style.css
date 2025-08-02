@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  height: 100px;
+  background-color: #3e5dd4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+.areaH1 {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+header h1 {
+  font-size: 46px; 
+  color: black;
+  margin-left: 100px;
+}
+
+.areaAdmin {
+  background-color: #2ca44f;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 16px;
+}
+
+.areaAdmin img {
+  height: 30px;
+}
+
+.areaAdmin p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+}
+
+/*Main*/
+
+main {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h2 {
+  font-size: 38px;
+  margin: 40px 0 30px;
+}
+
+.form-bloco {
+  width: 1100px;
+  background-color: rgba(36, 123, 177, 1);
+  border-radius: 8px;
+  padding: 40px 60px; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.colunas-container {
+  display: flex;
+  gap: 100px;
+  width: 100%;
+  justify-content: center;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.coluna label {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.coluna input {
+  width: 350px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.botao-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-container button {
+  background-color: #2ca44f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+footer {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.footerEndereçoContato {
+  background-color: rgba(252, 247, 248, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  height: 176px;
+  box-sizing: border-box;
+}
+
+.footerEndereçoContato h4 {
+  color: rgba(78, 128, 152, 1);
+  margin-bottom: 10px;
+}
+
+.footerEndereçoContato p {
+  color: rgba(39, 69, 83, 1);
+}
+
+.endereco {
+  max-width: 40%;
+}
+
+.endereco p {
+  line-height: 1.6; 
+}
+
+.contato {
+  max-width: 40%;
+  margin-top: 20px; 
+}
+
+.icones img {
+  width: 18px;
+  margin-right: 10px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.footerCopyright {
+  background-color: rgba(65, 95, 206, 1);
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
