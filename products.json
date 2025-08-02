@@ -1,0 +1,504 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa Flask",
+      "price": 34.15,
+      "image": "https://via.placeholder.com/150?text=Camisa+Flask",
+      "category": "Tecnologia",
+      "description": "Qualidade premium.",
+      "inStock": false,
+      "rating": 5.0
+    },
+    {
+      "id": 2,
+      "name": "Camisa Angular",
+      "price": 34.05,
+      "image": "https://via.placeholder.com/150?text=Camisa+Angular",
+      "category": "Canecas",
+      "description": "Super leve e confortável.",
+      "inStock": true,
+      "rating": 3.0
+    },
+    {
+      "id": 3,
+      "name": "Caneca PHP",
+      "price": 60.93,
+      "image": "https://via.placeholder.com/150?text=Caneca+PHP",
+      "category": "Acessórios",
+      "description": "Super leve e confortável.",
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 4,
+      "name": "Camisa Next.js",
+      "price": 40.02,
+      "image": "https://via.placeholder.com/150?text=Camisa+Next.js",
+      "category": "Roupas",
+      "description": "Qualidade premium.",
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 5,
+      "name": "Camiseta Svelte",
+      "price": 28.27,
+      "image": "https://via.placeholder.com/150?text=Camiseta+Svelte",
+      "category": "Acessórios",
+      "description": "Qualidade premium.",
+      "inStock": true,
+      "rating": 3.4
+    },
+    {
+      "id": 6,
+      "name": "Camiseta Go",
+      "price": 70.49,
+      "image": "https://via.placeholder.com/150?text=Camiseta+Go",
+      "category": "Acessórios",
+      "description": "Design moderno e geek.",
+      "inStock": false,
+      "rating": 3.9
+    },
+    {
+      "id": 7,
+      "name": "Chaveiro C#",
+      "price": 57.72,
+      "image": "https://via.placeholder.com/150?text=Chaveiro+C#",
+      "category": "Roupas",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 8,
+      "name": "Camisa Laravel",
+      "price": 97.4,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Roupas",
+      "description": "Produto estiloso e confortável.",
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 9,
+      "name": "Camiseta Go",
+      "price": 28.17,
+      "image": "https://via.placeholder.com/150?text=Camiseta+Go",
+      "category": "Acessórios",
+      "description": "Qualidade premium.",
+      "inStock": true,
+      "rating": 3.2
+    },
+    {
+      "id": 10,
+      "name": "Adesivo Python",
+      "price": 66.1,
+      "image": "https://via.placeholder.com/150?text=Adesivo+Python",
+      "category": "Roupas",
+      "description": "Presente perfeito para devs.",
+      "inStock": false,
+      "rating": 3.5
+    },
+    {
+      "id": 11,
+      "name": "Mousepad CSS",
+      "price": 90.06,
+      "image": "https://via.placeholder.com/150?text=Mousepad+CSS",
+      "category": "Roupas",
+      "description": "Presente perfeito para devs.",
+      "inStock": false,
+      "rating": 3.5
+    },
+    {
+      "id": 12,
+      "name": "Caneca Java",
+      "price": 76.1,
+      "image": "https://via.placeholder.com/150?text=Caneca+Java",
+      "category": "Acessórios",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 13,
+      "name": "Moletom Node.js",
+      "price": 50.07,
+      "image": "https://via.placeholder.com/150?text=Moletom+Node.js",
+      "category": "Canecas",
+      "description": "Design moderno e geek.",
+      "inStock": false,
+      "rating": 4.3
+    },
+    {
+      "id": 14,
+      "name": "Mousepad CSS",
+      "price": 76.7,
+      "image": "https://via.placeholder.com/150?text=Mousepad+CSS",
+      "category": "Canecas",
+      "description": "Produto estiloso e confortável.",
+      "inStock": false,
+      "rating": 3.9
+    },
+    {
+      "id": 15,
+      "name": "Chaveiro Rust",
+      "price": 33.45,
+      "image": "https://via.placeholder.com/150?text=Chaveiro+Rust",
+      "category": "Acessórios",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": false,
+      "rating": 4.2
+    },
+    {
+      "id": 16,
+      "name": "Camisa Angular",
+      "price": 64.6,
+      "image": "https://via.placeholder.com/150?text=Camisa+Angular",
+      "category": "Canecas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": false,
+      "rating": 4.8
+    },
+    {
+      "id": 17,
+      "name": "Moletom Node.js",
+      "price": 78.03,
+      "image": "https://via.placeholder.com/150?text=Moletom+Node.js",
+      "category": "Roupas",
+      "description": "Design moderno e geek.",
+      "inStock": false,
+      "rating": 4.8
+    },
+    {
+      "id": 18,
+      "name": "Camisa Laravel",
+      "price": 86.66,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Tecnologia",
+      "description": "Produto estiloso e confortável.",
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 19,
+      "name": "Boné TypeScript",
+      "price": 60.07,
+      "image": "https://via.placeholder.com/150?text=Boné+TypeScript",
+      "category": "Acessórios",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 20,
+      "name": "Camisa Laravel",
+      "price": 54.28,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Roupas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 21,
+      "name": "Adesivo Python",
+      "price": 79.87,
+      "image": "https://via.placeholder.com/150?text=Adesivo+Python",
+      "category": "Roupas",
+      "description": "Produto estiloso e confortável.",
+      "inStock": false,
+      "rating": 5.0
+    },
+    {
+      "id": 22,
+      "name": "Camisa Laravel",
+      "price": 98.88,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Roupas",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 23,
+      "name": "Camiseta JavaScript",
+      "price": 33.58,
+      "image": "https://via.placeholder.com/150?text=Camiseta+JavaScript",
+      "category": "Acessórios",
+      "description": "Produto estiloso e confortável.",
+      "inStock": false,
+      "rating": 4.3
+    },
+    {
+      "id": 24,
+      "name": "Camiseta Svelte",
+      "price": 68.81,
+      "image": "https://via.placeholder.com/150?text=Camiseta+Svelte",
+      "category": "Canecas",
+      "description": "Produto estiloso e confortável.",
+      "inStock": false,
+      "rating": 4.9
+    },
+    {
+      "id": 25,
+      "name": "Camisa React",
+      "price": 44.31,
+      "image": "https://via.placeholder.com/150?text=Camisa+React",
+      "category": "Acessórios",
+      "description": "Super leve e confortável.",
+      "inStock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 26,
+      "name": "Moletom Django",
+      "price": 31.17,
+      "image": "https://via.placeholder.com/150?text=Moletom+Django",
+      "category": "Tecnologia",
+      "description": "Qualidade premium.",
+      "inStock": true,
+      "rating": 3.4
+    },
+    {
+      "id": 27,
+      "name": "Moletom Django",
+      "price": 53.19,
+      "image": "https://via.placeholder.com/150?text=Moletom+Django",
+      "category": "Tecnologia",
+      "description": "Presente perfeito para devs.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 28,
+      "name": "Camiseta Go",
+      "price": 82.12,
+      "image": "https://via.placeholder.com/150?text=Camiseta+Go",
+      "category": "Roupas",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 3.9
+    },
+    {
+      "id": 29,
+      "name": "Chaveiro C#",
+      "price": 76.86,
+      "image": "https://via.placeholder.com/150?text=Chaveiro+C#",
+      "category": "Roupas",
+      "description": "Produto estiloso e confortável.",
+      "inStock": false,
+      "rating": 4.1
+    },
+    {
+      "id": 30,
+      "name": "Adesivo Python",
+      "price": 87.91,
+      "image": "https://via.placeholder.com/150?text=Adesivo+Python",
+      "category": "Acessórios",
+      "description": "Qualidade premium.",
+      "inStock": true,
+      "rating": 3.3
+    },
+    {
+      "id": 31,
+      "name": "Caneca HTML",
+      "price": 32.34,
+      "image": "https://via.placeholder.com/150?text=Caneca+HTML",
+      "category": "Roupas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": true,
+      "rating": 3.1
+    },
+    {
+      "id": 32,
+      "name": "Camisa Next.js",
+      "price": 72.85,
+      "image": "https://via.placeholder.com/150?text=Camisa+Next.js",
+      "category": "Tecnologia",
+      "description": "Produto estiloso e confortável.",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 33,
+      "name": "Camisa Express",
+      "price": 20.24,
+      "image": "https://via.placeholder.com/150?text=Camisa+Express",
+      "category": "Roupas",
+      "description": "Qualidade premium.",
+      "inStock": false,
+      "rating": 5.0
+    },
+    {
+      "id": 34,
+      "name": "Camisa Laravel",
+      "price": 80.09,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Canecas",
+      "description": "Super leve e confortável.",
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 35,
+      "name": "Boné TypeScript",
+      "price": 66.08,
+      "image": "https://via.placeholder.com/150?text=Boné+TypeScript",
+      "category": "Tecnologia",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 3.1
+    },
+    {
+      "id": 36,
+      "name": "Camisa Laravel",
+      "price": 59.61,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Roupas",
+      "description": "Qualidade premium.",
+      "inStock": false,
+      "rating": 4.0
+    },
+    {
+      "id": 37,
+      "name": "Camisa Next.js",
+      "price": 21.37,
+      "image": "https://via.placeholder.com/150?text=Camisa+Next.js",
+      "category": "Canecas",
+      "description": "Super leve e confortável.",
+      "inStock": true,
+      "rating": 3.2
+    },
+    {
+      "id": 38,
+      "name": "Caneca PHP",
+      "price": 90.6,
+      "image": "https://via.placeholder.com/150?text=Caneca+PHP",
+      "category": "Roupas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 39,
+      "name": "Camisa Next.js",
+      "price": 33.5,
+      "image": "https://via.placeholder.com/150?text=Camisa+Next.js",
+      "category": "Tecnologia",
+      "description": "Presente perfeito para devs.",
+      "inStock": true,
+      "rating": 5.0
+    },
+    {
+      "id": 40,
+      "name": "Moletom Node.js",
+      "price": 92.29,
+      "image": "https://via.placeholder.com/150?text=Moletom+Node.js",
+      "category": "Tecnologia",
+      "description": "Super leve e confortável.",
+      "inStock": false,
+      "rating": 3.9
+    },
+    {
+      "id": 41,
+      "name": "Camisa Flask",
+      "price": 38.03,
+      "image": "https://via.placeholder.com/150?text=Camisa+Flask",
+      "category": "Tecnologia",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 42,
+      "name": "Camisa Next.js",
+      "price": 77.73,
+      "image": "https://via.placeholder.com/150?text=Camisa+Next.js",
+      "category": "Canecas",
+      "description": "Design moderno e geek.",
+      "inStock": false,
+      "rating": 3.0
+    },
+    {
+      "id": 43,
+      "name": "Chaveiro Rust",
+      "price": 70.37,
+      "image": "https://via.placeholder.com/150?text=Chaveiro+Rust",
+      "category": "Roupas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 44,
+      "name": "Caneca PHP",
+      "price": 32.17,
+      "image": "https://via.placeholder.com/150?text=Caneca+PHP",
+      "category": "Roupas",
+      "description": "Super leve e confortável.",
+      "inStock": false,
+      "rating": 4.5
+    },
+    {
+      "id": 45,
+      "name": "Caneca Java",
+      "price": 27.73,
+      "image": "https://via.placeholder.com/150?text=Caneca+Java",
+      "category": "Roupas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": true,
+      "rating": 3.2
+    },
+    {
+      "id": 46,
+      "name": "Camisa React",
+      "price": 70.01,
+      "image": "https://via.placeholder.com/150?text=Camisa+React",
+      "category": "Roupas",
+      "description": "Super leve e confortável.",
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 47,
+      "name": "Mousepad CSS",
+      "price": 32.56,
+      "image": "https://via.placeholder.com/150?text=Mousepad+CSS",
+      "category": "Roupas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 48,
+      "name": "Camisa Laravel",
+      "price": 70.28,
+      "image": "https://via.placeholder.com/150?text=Camisa+Laravel",
+      "category": "Roupas",
+      "description": "Design moderno e geek.",
+      "inStock": false,
+      "rating": 3.8
+    },
+    {
+      "id": 49,
+      "name": "Moletom Django",
+      "price": 89.59,
+      "image": "https://via.placeholder.com/150?text=Moletom+Django",
+      "category": "Canecas",
+      "description": "Ideal para desenvolvedores.",
+      "inStock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 50,
+      "name": "Camisa Express",
+      "price": 73.88,
+      "image": "https://via.placeholder.com/150?text=Camisa+Express",
+      "category": "Canecas",
+      "description": "Design moderno e geek.",
+      "inStock": true,
+      "rating": 4.3
+    }
+  ]
+}
