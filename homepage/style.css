@@ -1,7 +1,8 @@
-*{
+* {
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
 }
 
 header h1 {
-  font-size: 46px; 
+  font-size: 46px;
   color: black;
   margin-left: 70px;
 }
@@ -48,11 +49,169 @@ header h1 {
   margin: 0;
 }
 
-/*Footer*/
+/*Main*/
+main {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+/* Botão Adicionar */
+.adicionar-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#adicionar-container a,
+#btn-adicionar {
+  background-color: #2ca44f;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Grid de produtos */
+.grid-camisas {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 produtos por linha */
+  grid-gap: 30px; /* espaço entre produtos */
+  justify-items: center;
+}
+
+/* Produto */
+.produto {
+  background-color: #f1f1f1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px; /* aumentei de 180px */
+  overflow: hidden;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Header do produto (avaliação e ações) */
+.produto-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  padding: 0 10px;
+}
+
+.avaliacao {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 26px; /* número da avaliação */
+  font-weight: 600;
+  color: black;
+}
+
+.avaliacao img {
+  width: 48px; /* estrela pequena */
+  height: 48px;
+}
+
+
+
+/* Ícones de ações (editar/deletar) */
+.acoes img {
+  width: 48px; /* ícones grandes */
+  height: 48px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+/* Imagem do produto */
+.imagem-produto {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Descrição */
+.descricao {
+  background-color: #224cc3;
+  color: white;
+  width: 100%;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-sizing: border-box;
+}
+
+/* Nome do Produto */
+.descricao h4 {
+  font-size: 18px;
+  color: #2ca44f;
+  text-align: left;
+  margin: 0;
+}
+
+/* Descrição do Produto */
+.descricao p {
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+  color: white;
+}
+
+/* Preço */
+.descricao .preco {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2ca44f;
+  text-align: right;
+}
+
+/* Paginação */
+.paginacao {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.paginacao button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.bolinhas {
+  display: flex;
+  gap: 10px;
+}
+
+.bolinhas span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  display: inline-block;
+}
+
+.bolinhas .ativo {
+  background-color: #2ca44f;
+}
+
+
+
+/*Footer*/
 footer {
-  min-width: 100%;
-  margin: 0 auto;
+  width: 100%;
+  margin-top: auto;
 }
 
 .footerEndereçoContato {
@@ -78,12 +237,12 @@ footer {
 }
 
 .endereco p {
-  line-height: 1.6; 
+  line-height: 1.6;
 }
 
 .contato {
   max-width: 40%;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .icones img {
@@ -99,6 +258,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 }
