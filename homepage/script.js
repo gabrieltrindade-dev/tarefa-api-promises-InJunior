@@ -57,7 +57,27 @@ function renderizarProdutos(produtos) {
 
 function atualizarPaginacao(pagina) {
     bolinhasContainer.innerHTML = '';
-    for (let i = 1; i <= totalPaginas; i++) {
+
+    const maxBolinhas = 5;
+    let startPage = 1;
+    let endPage = totalPaginas;
+
+    if (totalPaginas > maxBolinhas) {
+        let metade = Math.floor(maxBolinhas / 2);
+        
+        if (pagina <= metade) {
+            startPage = 1;
+            endPage = maxBolinhas;
+        } else if (pagina >= totalPaginas - metade) {
+            startPage = totalPaginas - maxBolinhas + 1;
+            endPage = totalPaginas;
+        } else {
+            startPage = pagina - metade;
+            endPage = pagina + metade;
+        }
+    }
+
+    for (let i = startPage; i <= endPage; i++) {
         const bolinha = document.createElement('span');
         bolinha.textContent = i;
         bolinha.classList.add('bolinha');
