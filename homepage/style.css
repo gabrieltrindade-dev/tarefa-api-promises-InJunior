@@ -6,7 +6,7 @@
 }
 
 header {
-  height: 100px;
+  height: 139px;
   background-color: #3e5dd4;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ header {
 }
 
 .logo img {
-  height: 70px;
+  height: 120px;
 }
 
 .areaH1 {
@@ -25,7 +25,7 @@ header {
 }
 
 header h1 {
-  font-size: 46px;
+  font-size: 70px;
   color: black;
   margin-left: 70px;
 }
@@ -40,12 +40,12 @@ header h1 {
 }
 
 .areaAdmin img {
-  height: 30px;
+  height: 50px;
 }
 
 .areaAdmin p {
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -58,10 +58,9 @@ main {
   align-items: center;
 }
 
-/* Botão Adicionar */
 .adicionar-container {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 80px; 
+  margin-bottom: 80px; 
 }
 
 #adicionar-container a,
@@ -69,34 +68,35 @@ main {
   background-color: #2ca44f;
   color: white;
   border: none;
-  padding: 12px 24px;
-  font-size: 18px;
+  display: inline-block;
+  width: 1284px; 
+  height: 100px; 
+  text-align: center; 
+  line-height: 100px; 
+  font-size: 40px; 
   border-radius: 10px;
-  cursor: pointer;
 }
 
-/* Grid de produtos */
 .grid-camisas {
-  width: 1000px;
+  width: 1284px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 produtos por linha */
-  grid-gap: 30px; /* espaço entre produtos */
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 30px; 
   justify-items: center;
 }
 
-/* Produto */
 .produto {
   background-color: #f1f1f1;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 260px; /* aumentei de 180px */
+  width: 408px; 
+  height: 819px;
   overflow: hidden;
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.25);
 }
 
-/* Header do produto (avaliação e ações) */
 .produto-header {
   width: 100%;
   display: flex;
@@ -104,108 +104,112 @@ main {
   position: absolute;
   top: 10px;
   left: 0;
-  padding: 0 10px;
+  padding: 10px 15px; 
+  box-sizing: border-box;
 }
 
 .avaliacao {
   display: flex;
   align-items: center;
   gap: 4px;
-  font-size: 26px; /* número da avaliação */
+  font-size: 26px; 
   font-weight: 600;
   color: black;
 }
 
 .avaliacao img {
-  width: 48px; /* estrela pequena */
+  width: 48px; 
   height: 48px;
 }
 
-
-
-/* Ícones de ações (editar/deletar) */
 .acoes img {
-  width: 48px; /* ícones grandes */
+  width: 48px; 
   height: 48px;
   margin-left: 6px;
   cursor: pointer;
 }
 
-/* Imagem do produto */
 .imagem-produto {
   width: 100%;
   height: auto;
   object-fit: cover;
+  flex-grow: 1;
 }
 
-/* Descrição */
 .descricao {
   background-color: #224cc3;
   color: white;
   width: 100%;
-  padding: 14px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 12px;
   box-sizing: border-box;
+  height: 231px;
 }
 
-/* Nome do Produto */
 .descricao h4 {
-  font-size: 18px;
+  font-size: 30px;
   color: #2ca44f;
   text-align: left;
   margin: 0;
 }
 
-/* Descrição do Produto */
 .descricao p {
-  font-size: 12px;
+  font-size: 20px;
   text-align: left;
   margin: 0;
   color: white;
 }
 
-/* Preço */
 .descricao .preco {
-  font-size: 22px;
+  font-size: 36px;
   font-weight: bold;
   color: #2ca44f;
   text-align: right;
 }
 
-/* Paginação */
 .paginacao {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 68px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .paginacao button {
-  background: none;
-  border: none;
-  font-size: 22px;
-  cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #2ca44f; 
+    cursor: pointer;
+    padding: 0; 
+    line-height: 1; 
 }
 
 .bolinhas {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .bolinhas span {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #c4c4c4;
-  display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #c4c4c4; 
+    color: #fff; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
 }
 
 .bolinhas .ativo {
-  background-color: #2ca44f;
+    background-color: #2ca44f; 
+    color: #fff;
 }
-
 
 
 /*Footer*/
