@@ -8,7 +8,7 @@
       "category": "Tecnologia",
       "description": "Qualidade premium.",
       "inStock": false,
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "category": "Canecas",
       "description": "Super leve e confortável.",
       "inStock": true,
-      "rating": 3.0
+      "rating": 3
     },
     {
       "id": 3,
@@ -208,7 +208,7 @@
       "category": "Roupas",
       "description": "Produto estiloso e confortável.",
       "inStock": false,
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": 22,
@@ -328,7 +328,7 @@
       "category": "Roupas",
       "description": "Qualidade premium.",
       "inStock": false,
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": 34,
@@ -358,7 +358,7 @@
       "category": "Roupas",
       "description": "Qualidade premium.",
       "inStock": false,
-      "rating": 4.0
+      "rating": 4
     },
     {
       "id": 37,
@@ -388,7 +388,7 @@
       "category": "Tecnologia",
       "description": "Presente perfeito para devs.",
       "inStock": true,
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": 40,
@@ -418,7 +418,7 @@
       "category": "Canecas",
       "description": "Design moderno e geek.",
       "inStock": false,
-      "rating": 3.0
+      "rating": 3
     },
     {
       "id": 43,
