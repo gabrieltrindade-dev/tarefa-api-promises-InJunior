@@ -29,7 +29,7 @@ async function carregarProdutoParaEdicao() {
 
     } catch (error) {
         console.error('Erro ao carregar o produto:', error);
-        alert('Erro ao carregar os dados do produto. Verifique a conexão com a API.');
+        alert('Erro ao carregar os dados do produto');
     }
 }
 
@@ -54,14 +54,13 @@ formEditar.addEventListener('submit', async (e) => {
         });
 
         if (response.ok) {
-            alert('Produto atualizado com sucesso!');
             window.location.href = '../homepage/index.html';
         } else {
-            alert('Ocorreu um erro ao atualizar o produto. Status: ' + response.status);
+            alert('Erro ao atualizar o produto. Status: ' + response.status);
         }
     } catch (error) {
         console.error('Erro na requisição:', error);
-        alert('Ocorreu um erro de conexão. Verifique se o json-server está rodando.');
+        alert('Erro de conexão');
     }
 });
 
