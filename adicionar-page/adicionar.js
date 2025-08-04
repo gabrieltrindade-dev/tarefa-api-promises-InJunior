@@ -35,19 +35,17 @@ formAdicionar.addEventListener('submit', async (e) => {
             body: JSON.stringify(novoProduto),
         });
 
-        if (!response.ok) {
-            alert('Ocorreu um erro ao adicionar o produto. Status: ' + response.status);
+        if (!response.ok) { 
             return;
         }
 
-        alert('Produto adicionado com sucesso!');
+        
         const totalProductsResponse = await fetch(API_URL);
         const totalCount = totalProductsResponse.headers.get('X-Total-Count');
         const limitePorPagina = 5; 
         const ultimaPagina = Math.ceil(totalCount / limitePorPagina);
-        window.location.href = `../homepage/index.html${ultimaPagina}`;
+        window.location.href = `../homepage/index.html?page=${ultimaPagina}`;;
     } catch (error) {
         console.error('Erro na requisição:', error);
-        alert('Ocorreu um erro de conexão. Verifique se o json-server está rodando.');
     }
 });
